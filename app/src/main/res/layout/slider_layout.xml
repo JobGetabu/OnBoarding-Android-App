@@ -21,11 +21,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/slide_image"
         android:layout_centerHorizontal="true"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif"
-        android:lineSpacingExtra="12sp"
+        android:lineSpacingExtra="18sp"
         android:textAppearance="@android:style/TextAppearance"
-        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
         android:textStyle="bold"
         tools:text="Heading" />
 
@@ -36,9 +38,10 @@
         android:layout_below="@+id/slide_heading"
         android:layout_centerHorizontal="true"
         android:layout_margin="16dp"
-        android:lineSpacingExtra="8sp"
+        android:lineSpacingExtra="10sp"
         android:padding="35dp"
-        android:textAlignment="textStart"
-        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorTransparentWhite"
+        android:textSize="18sp"
         tools:text="@sample/tools:lorem/random" />
 </RelativeLayout>

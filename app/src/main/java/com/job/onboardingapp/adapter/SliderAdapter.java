@@ -18,12 +18,12 @@ import com.job.onboardingapp.R;
 public class SliderAdapter extends PagerAdapter {
     @Override
     public int getCount() {
-        return 0;
+        return slider_heading.length;
     }
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return false;
+        return view == (RelativeLayout) object;
     }
 
     Context context;
